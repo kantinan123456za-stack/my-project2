@@ -1,0 +1,136 @@
+html{
+   border-color:(#84e6ff,#fff,#84e6ff);
+}
+.img_1 img{
+   width: 5%;            /* ขนาดรูป  */
+  height: 5%;          
+  object-fit: cover;       /* จัดให้รูปพอดีไม่ยืด */
+  border-radius: 50%;      /* ทำให้เป็นวงกลม */
+}
+.hero-text {
+    
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column; 
+  gap: 10px; 
+
+  width: 80%;
+  height: 600px; 
+  height: 300px; 
+
+  background-image: url('ian-dooley-DuBNA1QMpPA-unsplash.jpg');
+  background-size: cover;         /* ปรับให้ภาพเต็มกรอบ */
+  background-position: bottom;    /* จัดให้อยู่ตรงกลาง */
+  background-repeat: no-repeat;  /* ไม่ให้ภาพซ้ำ */
+
+  border-radius: 15px;  /* มุมโค้ง */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+
+ 
+  position: relative; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; /* เว้นขอบด้านใน */
+  margin: 40px auto;
+}
+#name{
+    
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+header {
+  background: #84e6ff;
+  color: #333;
+  padding: 15px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;             /* กำหนดให้อยู่บนสุด */
+  z-index: 10;        /* เพิ่มชั้นให้ header อยู่เหนือทุกอย่าง */
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+ }
+ nav a {
+      color: #333;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+
+
+section#Asia,section#thai,section#Europe{
+  scroll-margin-top:250px;
+  
+}
+
+
+.Asia,.thai,.Europe{
+  text-align: center;                         
+  font-size: 1rem;                            
+  font-weight: bold;                          
+  color: #333;                             
+  margin: 40px 0 20px 0;                      
+  position: relative;                         
+  font-family: 'Arial', sans-serif;           
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.20); /
+}
+
+/* เพิ่มเส้นใต้สวย ๆ */
+ .Asia::after,.thai::after,.Europe::after {
+  content: "";                   
+  position: absolute;
+  bottom: 0px;                   
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px; /*ขนานเส้น*/    
+  background-color: #ff6600;
+  border-radius: 2px;  
+}
+
+.top_1 {
+  margin: 40px;
+  display: flex;
+  
+  flex-wrap: nowrap;   /* เรียงแนวนอน ไม่ตัดบรรทัด */
+  gap: 20px;           /* ระยะห่างระหว่างกล่อง */
+  justify-content: flex-start; /* เรียงจากซ้ายไปขวา */
+  overflow-x: auto;    /* ให้เลื่อนแนวนอนได้ */
+  padding: 20px;
+}
+
+.card {
+  width: 300px;          /* กำหนดขนาดกล่อง */
+  background: #fff;      
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.card img {
+  width: 100%;
+  height: 200px;         /* ความสูงของรูป */
+  object-fit: cover;     /* เติมเต็มกล่องรูป */
+}
+
+.overlay{
+  padding: 15px;
+}
+
+.overlay h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.overlay h3 {
+  font-size: 0.9rem;
+  color: #555;
+}
+
