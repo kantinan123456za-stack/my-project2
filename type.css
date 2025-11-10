@@ -94,7 +94,6 @@ section#Asia,section#thai,section#Europe{
 .top_1 {
   margin: 40px;
   display: flex;
-  
   flex-wrap: nowrap;   /* เรียงแนวนอน ไม่ตัดบรรทัด */
   gap: 20px;           /* ระยะห่างระหว่างกล่อง */
   justify-content: flex-start; /* เรียงจากซ้ายไปขวา */
