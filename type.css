@@ -1,6 +1,4 @@
-html{
-   border-color:(#84e6ff,#fff,#84e6ff);
-}
+
 .img_1 img{
    width: 5%;            /* ขนาดรูป  */
   height: 5%;          
@@ -21,7 +19,7 @@ html{
 
   background-image: url('ian-dooley-DuBNA1QMpPA-unsplash.jpg');
   background-size: cover;         /* ปรับให้ภาพเต็มกรอบ */
-  background-position: bottom;    /* จัดให้อยู่ตรงกลาง */
+  background-position: bottom;    /* จัดให้อยู่ข้างล่าง */
   background-repeat: no-repeat;  /* ไม่ให้ภาพซ้ำ */
 
   border-radius: 15px;  /* มุมโค้ง */
