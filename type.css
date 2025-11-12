@@ -1,6 +1,6 @@
 
 .img_1 img{
-   width: 5%;            /* ขนาดรูป  */
+  width: 5%;            /* ขนาดรูป  */
   height: 5%;          
   object-fit: cover;       /* จัดให้รูปพอดีไม่ยืด */
   border-radius: 50%;      /* ทำให้เป็นวงกลม */
@@ -14,8 +14,8 @@
   gap: 10px; 
 
   width: 80%;
-  height: 600px; 
   height: 300px; 
+  margin: 40px auto;
 
   background-image: url('ian-dooley-DuBNA1QMpPA-unsplash.jpg');
   background-size: cover;         /* ปรับให้ภาพเต็มกรอบ */
@@ -24,21 +24,11 @@
 
   border-radius: 15px;  /* มุมโค้ง */
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-
  
-  position: relative; 
-  color: white; 
-  text-align: center; 
-  padding: 20px; /* เว้นขอบด้านใน */
-  margin: 40px auto;
+  color: white;  
+ 
 }
-#name{
-    
-    font-weight: bold;
-    text-align: center;
-    color: aliceblue;
-    
-}
+
 
 header {
   background: #84e6ff;
